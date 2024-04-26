@@ -2,7 +2,9 @@ import React from 'react';
 
 const Admin = () => {
     return (
-        <h1>Admin Pages</h1>
+        <main className='dashboard'>
+            <h1>Admin Page</h1>
+        </main>
     );
 };
 

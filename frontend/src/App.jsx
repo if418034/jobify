@@ -10,28 +10,56 @@ import {
     Login,
     Profile,
     Register,
-    Stats
+    Stats,
+    AddJob,
+    AllJobs
 } from './pages'
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Landing/>,
+        element: <HomeLayout/>,
         errorElement: <Error/>,
         children: [
             {
-                path: '/register',
-                element: <Register/>
+                index: true,
+                element: <Landing/>
             },
             {
-                path: '/login',
+                path: 'login',
                 element: <Login/>
             },
             {
-                path: '/dashboard',
-                element: <DashboardLayout/>
+                path: 'register',
+                element: <Register/>
             },
-        ]
+            {
+                path: 'dashboard',
+                element: <DashboardLayout/>,
+                children: [
+                    {
+                        index: true,
+                        element: <AddJob/>
+                    },
+                    {
+                        path: 'stats',
+                        element: <Stats/>
+                    },
+                    {
+                        path: 'all-jobs',
+                        element: <AllJobs/>
+                    },
+                    {
+                        path: 'profile',
+                        element: <Profile/>
+                    },
+                    {
+                        path: 'admin',
+                        element: <Admin/>
+                    },
+                ]
+            },
+        ],
     },
 ])
 
