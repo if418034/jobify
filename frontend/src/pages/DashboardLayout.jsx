@@ -6,17 +6,24 @@ import {
     Navbar
 } from "../components";
 import {createContext, useContext, useState} from "react";
+import {checkDefaultTheme} from "../App.jsx";
 
 
 const DashboardContext = createContext();
-const DashboardLayout = () => {
+
+
+const DashboardLayout = ({isDarkThemeEnabled}) => {
     // temp
     const user = {name: 'john'}
     const [showSidebar, setShowSidebar] = useState(false)
-    const [isDarkTheme, setIsDarkTheme] = useState(false)
+    const [isDarkTheme, setIsDarkTheme] = useState(checkDefaultTheme())
 
     const toggleDarkTheme = () => {
-        console.log('toggle dark them');
+        const newDarkTheme = !isDarkTheme;
+        setIsDarkTheme(newDarkTheme);
+        //vanilajs
+        document.body.classList.toggle('dark-theme', newDarkTheme);
+        localStorage.setItem('darkTheme', newDarkTheme);
     }
 
     const toggleSidebar = () => {
@@ -32,6 +39,7 @@ const DashboardLayout = () => {
             showSidebar,
             isDarkTheme,
             toggleDarkTheme,
+            toggleSidebar,
             logoutUser
         }}>
             <Wrapper>

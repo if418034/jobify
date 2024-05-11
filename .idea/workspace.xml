@@ -7,20 +7,24 @@
     <list default="true" id="c6fe5735-c7ec-468f-9ebc-056772867cb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/ErrorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/ErrorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/RegisterAndLoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/RegisterAndLoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Admin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Admin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/BigSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/BigSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/LogoutContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/LogoutContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/SmallSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/SmallSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/ThemeToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/ThemeToggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/BigSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/BigSidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SmallSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SmallSidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/DashboardLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/DashboardLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Error.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Error.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Landing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Register.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,13 +49,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Learn/Jobify/frontend/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learn/mern-jobify-v2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\User\\AppData\\Local\\JetBrains\\WebStorm 2023.3.6\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -74,11 +79,27 @@
       <updated>1714012989436</updated>
       <workItem from="1714012991770" duration="5830000" />
       <workItem from="1714097538263" duration="2782000" />
-      <workItem from="1714100731075" duration="12276000" />
+      <workItem from="1714100731075" duration="26331000" />
+      <workItem from="1714473890154" duration="2981000" />
+      <workItem from="1714613791299" duration="14632000" />
+      <workItem from="1714876405513" duration="2165000" />
+      <workItem from="1715050913934" duration="14000" />
+      <workItem from="1715394885978" duration="7124000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/assets/wrappers/SmallSidebar.js</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
