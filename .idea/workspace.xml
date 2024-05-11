@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c6fe5735-c7ec-468f-9ebc-056772867cb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/BigSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/BigSidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/LogoutContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/LogoutContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/SmallSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/SmallSidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/wrappers/ThemeToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/wrappers/ThemeToggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/BigSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/BigSidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SmallSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SmallSidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/DashboardLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/DashboardLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +57,7 @@
       <recent name="D:\Learn\Jobify\frontend\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learn\Jobify" />
       <recent name="D:\Learn\Jobify\frontend" />
     </key>
   </component>
@@ -84,7 +76,7 @@
       <workItem from="1714613791299" duration="14632000" />
       <workItem from="1714876405513" duration="2165000" />
       <workItem from="1715050913934" duration="14000" />
-      <workItem from="1715394885978" duration="7124000" />
+      <workItem from="1715394885978" duration="7774000" />
     </task>
     <servers />
   </component>
