@@ -46,7 +46,7 @@ app.use(errorHandlerMiddleware)
 const port = process.env.PORT || 5100
 
 try {
-    await mongoose.connect(process.env.MONGO_URL)
+    mongoose.connect(process.env.MONGO_URL)
     app.listen(port, () => {
         console.log(`Server is running on PORT ${port}...`)
     })

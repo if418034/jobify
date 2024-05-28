@@ -1,6 +1,7 @@
-import { body, validationResult } from 'express-validator'
+import { body, param, validationResult } from 'express-validator'
 import { BadRequestError } from '../errors/customError.js'
 import { JOB_STATUS, JOB_TYPE } from '../utils/constants.js'
+import mongoose from 'mongoose'
 
 const withValidationErrors = (validateValues) => {
     return [validateValues,
@@ -34,4 +35,16 @@ export const validateJobInput = withValidationErrors([
     body('jobType')
         .isIn(Object.values(JOB_TYPE))
         .withMessage('invalid job type value')
+])
+
+export const validateId = withValidationErrors([
+    param('id')
+        .custom((value) => {
+            
+        }
+        .withMessage('invalid MongoDB id')
+
+
+const data = await Job.findById(id);
+if (!data) throw new NotFoundError(`No job found with id ${id}`)
 ])
