@@ -17,9 +17,6 @@ export const getJob = async (req, res) => {
 
 export const createJob = async (req, res) => {
     const {company, position} = req.body
-    if(!company || !position) {
-        throw new BadRequestError('Please provide all the parameters needed')
-    }
     const job = await Job.create({company, position});
     res.status(StatusCodes.CREATED).json({job})
 }

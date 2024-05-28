@@ -6,6 +6,8 @@ import mongoose from 'mongoose'
 
 import jobRouter from './routes/jobRouter.js'
 
+import {validateTest} from './middleware/validationMiddleware.js'
+
 dotenv.config()
 const app = express()
 
@@ -21,6 +23,12 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
+
+app.post('/api/v1/test', validateTest, (req, res) => {
+    const { name } = req.body;
+    res.json({ message: `hello ${name}`})
+    }
+)
 
 app.post('/', (req, res) => {
     console.log(req);
